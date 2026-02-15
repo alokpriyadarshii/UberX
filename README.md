@@ -11,7 +11,7 @@ This is a **UI/learning project** — it demonstrates pickup/destination search,
 - Live **Google Maps route** (DirectionsService + custom map styling)
 - Shows **distance + duration** and a simple **fare estimate** (UberX / Comfort / UberXL)
 - Lightweight **Node/Express proxy API** for Places + Distance Matrix
-- PWA-ready via Vue CLI PWA plugin
+- PWA ready via Vue CLI PWA plugin
 
 ---
 
