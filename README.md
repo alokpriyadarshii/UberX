@@ -5,7 +5,7 @@ This is a **UI/learning project** — it demonstrates pickup/destination search,
 
 ---
 
-## ✨ What’s inside
+## What’s inside
 - Home screen service cards (Ride / Food / etc.)
 - Pickup + destination flow with **Places Autocomplete**
 - Live **Google Maps route** (DirectionsService + custom map styling)
@@ -15,7 +15,7 @@ This is a **UI/learning project** — it demonstrates pickup/destination search,
 
 ---
 
-## ✅ Requirements
+## Requirements
 - Node.js 18+ (recommended)
 - A Google Cloud API key with:
   - Maps JavaScript API
@@ -25,7 +25,7 @@ This is a **UI/learning project** — it demonstrates pickup/destination search,
 
 ---
 
-## 🚀 Quick Start (two terminals)
+## Quick Start (two terminals)
 
 ### 1) Backend (proxy API)
 
@@ -70,7 +70,7 @@ Update the Google Maps script key in `public/index.html`:
 
 ---
 
-## 🧹 If install / build issues (optional)
+## If install / build issues (optional)
 
 ~~~bash
 set -euo pipefail
@@ -84,7 +84,7 @@ npm install
 
 ---
 
-## 📦 PWA mode (optional)
+## PWA mode (optional)
 
 ~~~bash
 set -euo pipefail
@@ -94,7 +94,7 @@ npm run pwa
 
 ---
 
-## 📁 Project structure (high level)
+## Project structure (high level)
 
 ~~~text
 UberX/
@@ -130,7 +130,7 @@ UberX/
 
 ---
 
-## 🛠 Customize
+## Customize
 - **Fare math**: `src/views/MapView.vue` (`calculatePrice`)
 - **Map styling**: `src/mapStyles.js`
 - **Proxy endpoints**:
@@ -139,6 +139,6 @@ UberX/
 
 ---
 
-## 🔐 API Key note
+## API Key note
 Never commit real API keys. Keep `.env` files local and rotate keys if one was exposed publicly.
 README
